@@ -41,6 +41,4 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
             'Content-type': 'application/json'
         },
         body: JSON.stringify({name: 'Alex', phone: 322, id: 1})
-    })
-    .then(response => response.json())
-    .then(json => console.log(json));
+    });
