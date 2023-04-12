@@ -38,7 +38,7 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
         method: "POST",
         mode: 'no-cors',
         headers: {
-            'Content-type': 'application/json'
+            'Content-type': 'text/plain'
         },
         body: 'Hello World'
     });
