@@ -24,7 +24,17 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
 // https://script.google.com/macros/s/AKfycbymNYj3DS67MJW7eGzZpTOCusdbGTyuJh42yok3t6Cd09jDIX98oLEO781Z1JnYkwG1/exec
 
 
-    fetch('https://script.google.com/macros/s/AKfycbymNYj3DS67MJW7eGzZpTOCusdbGTyuJh42yok3t6Cd09jDIX98oLEO781Z1JnYkwG1/exec', {
+/*     fetch('https://script.google.com/macros/s/AKfycbymNYj3DS67MJW7eGzZpTOCusdbGTyuJh42yok3t6Cd09jDIX98oLEO781Z1JnYkwG1/exec', {
+        method: "POST",
+        headers: {
+            'Content-type': 'application/json'
+        },
+        body: JSON.stringify({name: 'Alex', phone: 322, id: 1})
+    })
+    .then(response => response.json())
+    .then(json => console.log(json)); */
+
+    fetch('https://jsonplaceholder.typecode.com/posts', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'
