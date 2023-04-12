@@ -34,7 +34,7 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
     .then(response => response.json())
     .then(json => console.log(json)); */
 
-    fetch('https://jsonplaceholder.typecode.com/posts', {
+    fetch('https://jsonplaceholder.typicode.com/posts', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'
