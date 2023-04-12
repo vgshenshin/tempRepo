@@ -36,6 +36,7 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
 
     fetch('https://script.google.com/macros/s/AKfycbymNYj3DS67MJW7eGzZpTOCusdbGTyuJh42yok3t6Cd09jDIX98oLEO781Z1JnYkwG1/exec', {
         method: "POST",
+        mode: 'no-cors',
         headers: {
             'Content-type': 'application/json'
         },
