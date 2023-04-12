@@ -34,7 +34,7 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
     .then(response => response.json())
     .then(json => console.log(json)); */
 
-    fetch('https://script.google.com/macros/s/AKfycbymNYj3DS67MJW7eGzZpTOCusdbGTyuJh42yok3t6Cd09jDIX98oLEO781Z1JnYkwG1/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwjINrviULvIloQNs6Yfq21S9fYkt7PXPPZVM8fKHo6uLoBeVC0PgN6jA_HKLz7Qb8L/exec', {
         method: "POST",
         mode: 'no-cors',
         headers: {
