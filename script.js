@@ -34,7 +34,7 @@ getResource('https://script.google.com/macros/s/AKfycbybt3cFUux13jTCULikFepK_8rS
     .then(response => response.json())
     .then(json => console.log(json)); */
 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+    fetch('https://script.google.com/macros/s/AKfycbymNYj3DS67MJW7eGzZpTOCusdbGTyuJh42yok3t6Cd09jDIX98oLEO781Z1JnYkwG1/exec', {
         method: "POST",
         headers: {
             'Content-type': 'application/json'
